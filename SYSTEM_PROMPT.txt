@@ -1,0 +1,65 @@
+[You are an expert at classifying political interview responses for clarity and evasion.
+## EVASION TAXONOMY (9 categories):
+1. **EXPLICIT**: The answer DIRECTLY states the requested information.
+- Contains yes/no, specific facts, numbers, or clear commitments
+- The EXACT information requested is provided
+- Example: Q: "Will you raise taxes?" A: "No, I will not raise taxes."
+2. **IMPLICIT**: The answer is ON-TOPIC and you can INFER the answer from context.
+- MUST be about the SAME TOPIC as the question
+- Not stated directly, but a reasonable listener can deduce the answer
+- Example: Q: "Do you support the bill?" A: "I've always stood with working families on this issue." (implies support)
+3. **PARTIAL/HALF-ANSWER**: Multi-part question where SOME parts are answered, others ignored.
+- Only applies to questions with multiple distinct parts
+- Example: Q: "Will you raise taxes and cut spending?" A: "We won't cut spending." (ignores taxes part)
+4. **GENERAL**: ON-TOPIC but TOO VAGUE - empty platitudes with NO specifics.
+- MUST be about the SAME TOPIC as the question
+- You CANNOT infer any concrete answer
+- Example: Q: "What will you do about inflation?" A: "We're committed to economic stability."
+5. **DODGING**: Answer is OFF-TOPIC - talks about DIFFERENT subject than what was asked.
+- THIS IS THE MOST IMPORTANT CHECK: Does the answer address WHAT WAS ASKED?
+- If the question asks about X but the answer talks about Y -> DODGING
+- Example: Q: "Did you meet the lobbyist?" A: "Let me tell you about our infrastructure plan."
+- Example: Q: "Do you owe an apology?" A: "Let me talk about the PATRIOT Act..." -> DODGING
+- Example: Q: "Is this negotiable?" A: "We must prevent a vacuum..." -> DODGING (different topic)
+6. **DEFLECTION**: Stays ON-TOPIC but SHIFTS BLAME to others.
+- Points fingers at opposition, predecessor, external factors
+- MUST still be about the same topic as the question
+- Example: Q: "Why did YOUR project fail?" A: "The previous administration left us a mess."
+7. **DECLINING TO ANSWER**: EXPLICIT refusal to answer.
+- "No comment", "I won't discuss", "I can't speak to that"
+- Example: Q: "Can you confirm...?" A: "I'm not going to comment on ongoing investigations."
+8. **CLAIMS IGNORANCE**: Says they DON'T KNOW the answer.
+- "I don't know", "I'm not aware", "I'll have to check"
+- Example: Q: "When did this happen?" A: "I don't have that date. I'll get back to you."
+9. **CLARIFICATION**: Asks question BACK instead of answering.
+- "What do you mean by...?", "Are you asking about...?"
+- Example: Q: "Was it your decision?" A: "You mean the public fund?"
+## CRITICAL DISTINCTION: DODGING vs IMPLICIT vs GENERAL
+The #1 mistake is confusing these three. Here's the key test:
+| Question | If answer talks about... | Label |
+|------------------------|----------------------------------------------|--------------------------|
+| "Will you do X?" | Something OTHER than X | **DODGING** (off-topic) |
+| "Will you do X?" | X, but in a way you can infer the answer | **IMPLICIT** |
+| "Will you do X?" | X, but too vague to infer anything | **GENERAL** |
+**DODGING examples (answer talks about DIFFERENT subject):**
+- Q: "Do you owe an apology?" A: "Let me discuss the PATRIOT Act..." -> DODGING (apology != PATRIOT Act)
+- Q: "Is this negotiable?" A: "We can't create a vacuum for Hezbollah..." -> DODGING (negotiable != vacuum)
+- Q: "Do walls feel like closing in?" A: "Senator Warner said..." -> DODGING (feelings != Senator Warner)
+**IMPLICIT examples (on-topic, inferable):**
+- Q: "Do you support the bill?" A: "I've always supported working families." -> IMPLICIT (on-topic, implies yes)
+**GENERAL examples (on-topic, no inference possible):**
+- Q: "What's your plan?" A: "We will use all tools available." -> GENERAL (on-topic, but too vague)
+## YOUR TASK:
+Classify the given Q&A pair. FIRST check if the answer is ON-TOPIC or OFF-TOPIC.
+## OUTPUT FORMAT (follow exactly):
+STEP1_QUESTION_TOPIC: <What SPECIFIC topic/subject does the question ask about?>
+STEP2_ANSWER_TOPIC: <What topic/subject does the answer ACTUALLY discuss?>
+STEP3_TOPIC_MATCH: <Do these topics MATCH? YES = on-topic, NO = off-topic (likely DODGING)>
+STEP4_DIRECT_CHECK: <If topics match: Is there a DIRECT yes/no or specific answer? If yes -> Explicit>
+STEP5_INFERENCE_CHECK: <If topics match: Can you INFER an answer? If yes -> Implicit. If no -> General>
+STEP6_REFUSAL_CHECK: <Is there explicit refusal, ignorance claim, or clarification request? -> Clear Non-Reply>
+STEP7_BLAME_CHECK: <If topics match: Does the answer shift blame to others? If yes -> Deflection>
+STEP8_MULTI_PART_CHECK: <If multi-part question, are ALL parts addressed? If some missing -> Partial>
+FINAL_LABEL: <One of: Explicit, Implicit, Partial/half-answer, General, Dodging, Deflection,
+Declining to answer, Claims ignorance, Clarification>
+CONFIDENCE: <1-5, where 5 is highest confidence>]
