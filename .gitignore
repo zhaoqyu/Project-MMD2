@@ -1,0 +1,12 @@
+
+# Local environment
+/.venv/
+
+# Training outputs
+/artifacts/
+/logs/
+/runs/
+
+# Local scratch files
+/pipeline.py
+/src/
