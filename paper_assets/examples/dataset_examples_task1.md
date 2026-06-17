@@ -1,25 +1,25 @@
 # Task 1 Dataset Examples
 
 ## Example 1
-- ID: `211`
+- ID: `868`
 - Task: `task1`
 - Split: `dev`
 - Gold: **Ambivalent**
-- president: Joseph R. Biden
-- date: January 19, 2022
-- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1269
-- Notes: likely multi-part question, likely truncated
+- president: Donald J. Trump
+- date: March 13, 2020
+- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1239
+- Notes: likely multi-part question
 
 **Question**
 
-Doubts about the effectiveness of sanctions in deterring Putin and why the threat of new sanctions would make him pause.
+What is the response to the Chinese officials expressing discontent over the source of the virus and spinning narratives?
 
 **Answer**
 
-Well, because he's never seen sanctions like the ones I promised will be imposed if he moves, number one.Number two, we're in a situation where Vladimir Putin is about to—we've had very frank discussions, Vladimir Putin and I. And the idea that NATO is not going to be united, I don't buy. I've spoken to every major NATO leader. We've had the NATO-Russian summit. We've had other—the OSCE has met, et cetera.And so I think what you're going to see is that Russia will be held accountable if it invades. And it depends on what it does. It's one thing if it's a minor incursion and then we end up having a fight about what to do and not do, et cetera.But if they actually do what they're capable of doing with the forces amassed on the border, it is going to be a disaster for Russia if they further invade Ukraine, and that our allies and partners are ready to impose severe costs and significant ...
+No, we have our deal with China. They're going to be buying $250 billion worth of goods and $50 billion from our farmers. And that's a great deal for our country; it's about time somebody did that. And frankly, phase two, we'll start negotiating.I did read one article, but I don't think that article was representative, certainly not of my conversations with President Xi. And they know where it came from. We all know where it came from.
 
 ## Example 2
-- ID: `1309`
+- ID: `1232`
 - Task: `task1`
 - Split: `dev`
 - Gold: **Ambivalent**
@@ -29,130 +29,125 @@ Well, because he's never seen sanctions like the ones I promised will be imposed
 
 **Question**
 
-Why are you pitting Americans against one another, sir?
+Are you still going to sign the Executive order on birthright citizenship?
 
 **Answer**
 
-Excuse me. Peter. Peter, what, are you trying to be him?
+You will answer—you'll ask me that question a little bit later.Go ahead.
 
 ## Example 3
-- ID: `2532`
+- ID: `1521`
 - Task: `task1`
 - Split: `dev`
 - Gold: **Ambivalent**
-- president: Barack Obama
-- date: November 11, 2010
-- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-lee-myung-bak-south-korea-seoul
-- Notes: likely multi-part question
+- president: Donald J. Trump
+- date: June 12, 2018
+- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore
 
 **Question**
 
-Does the criticism and opposition also make it harder for the U.S. to persuade other G-20 partners to support its goals?
+Do you still believe that North Korea is the most brutally oppressive regime on Earth?
 
 **Answer**
 
-Well, I think that you will see at this summit a broad-based agreement from all countries, including Germany, that we need to ensure balanced and sustainable growth. And it is my expectation that the communique will begin to put in place mechanisms that help us track and encourage such balanced and sustainable growth.The most important thing that the United States can do for the world economy is to grow, because we continue to be the world's largest market and a huge engine for all other countries to grow. Countries like Germany that export heavily benefit from our open markets and us buying their goods. That's true for every G-20 member.And so the point that we have consistently made is that in a prudent, stable way, we want to make sure that we are boosting growth rates at home as well as abroad. It is difficult to do that if we start seeing the huge imbalances redevelop that ...
+Right. Jon, I believe it's a rough situation over there. There's no question about it. And we did discuss it today pretty strongly. I mean, knowing what the main purpose of what we were doing is: denuking. But discussed it at pretty good length. We'll be doing something on it. It's rough. It's rough in a lot of places, by the way. Not just there. But it's rough, and we will continue that. And I think, ultimately, we'll agree to something. But it was discussed at length outside of the nuclear situation, one of the primary topics.
 
 ## Example 4
-- ID: `566`
+- ID: `1068`
 - Task: `task1`
 - Split: `dev`
 - Gold: **Clear Non-Reply**
 - president: Donald J. Trump
-- date: August 14, 2020
-- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1254
-- Notes: likely multi-part question
+- date: August 13, 2020
+- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1255
 
 **Question**
 
-Invitation to join a video summit with Iran and other world powers.
+Can you definitively say whether or not Kamala Harris is eligible to run as Vice President?
 
 **Answer**
 
-I haven't been told of it yet. I heard there's something, but I haven't been told of it yet.Please, go ahead.
+So I just heard that. I heard it today that she doesn't meet the requirements. And by the way, the lawyer that wrote that piece is a very highly qualified, very talented lawyer. I have no idea if that's right. I would have—I would have assumed the Democrats would have checked that out before she gets chosen to run for Vice President.
 
 ## Example 5
-- ID: `1470`
+- ID: `1165`
 - Task: `task1`
 - Split: `dev`
 - Gold: **Clear Non-Reply**
 - president: Donald J. Trump
-- date: July 13, 2018
-- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-theresa-may-the-united-kingdom-0
+- date: June 04, 2019
+- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-theresa-may-the-united-kingdom-london
 
 **Question**
 
-How do you fix the occupation of Crimea?
+With the NHS?
 
 **Answer**
 
-Well, we're going to see what happens. I mean, it's a process. If I knew, I wouldn't tell you, because that would put us at a disadvantage. But we'll see what happens. We'll see how it all mills out.But I just want people to understand that Crimea was a—you know, it was another bad hand. I got handed North Korea. We're doing very well. I—you saw the letter yesterday. And we're doing very well. Look, we haven't had nuclear testing, we haven't had missile launches, we haven't had rocket launches. Some sites were blown up. And we got back our hostages, our prisoners, even before I left. So a lot of good things are happening. There's some good feeling there. We'll see what happens. It's a process. It's probably a longer process than anybody would like, but I'm used to long processes too.We haven't taken off the sanctions. The sanctions are biting. We haven't taken them off.But when it ...
+I can't hear him. What?
 
 ## Example 6
-- ID: `1470`
+- ID: `1370`
 - Task: `task1`
 - Split: `dev`
 - Gold: **Clear Non-Reply**
 - president: Donald J. Trump
-- date: July 13, 2018
-- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-theresa-may-the-united-kingdom-0
+- date: November 07, 2018
+- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-washington-dc
 
 **Question**
 
-How do you fix the occupation of Crimea?
+If so, what kind of punishment would be involved?
 
 **Answer**
 
-Well, we're going to see what happens. I mean, it's a process. If I knew, I wouldn't tell you, because that would put us at a disadvantage. But we'll see what happens. We'll see how it all mills out.But I just want people to understand that Crimea was a—you know, it was another bad hand. I got handed North Korea. We're doing very well. I—you saw the letter yesterday. And we're doing very well. Look, we haven't had nuclear testing, we haven't had missile launches, we haven't had rocket launches. Some sites were blown up. And we got back our hostages, our prisoners, even before I left. So a lot of good things are happening. There's some good feeling there. We'll see what happens. It's a process. It's probably a longer process than anybody would like, but I'm used to long processes too.We haven't taken off the sanctions. The sanctions are biting. We haven't taken them off.But when it ...
+I'll have a much stronger opinion on that subject over the next week, and I'm working very closely with Congress. We're working together. Some very talented people. And we're working with Congress, we're working with Turkey, and we're working with Saudi Arabia. And I'm forming a very strong opinion.Go ahead, Jon. Go ahead, Jon.
 
 ## Example 7
-- ID: `267`
+- ID: `154`
 - Task: `task1`
 - Split: `test`
 - Gold: **Clear Reply**
-- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-felipe-de-jesus-calderon-hinojosa-mexico
-- Notes: likely truncated
+- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-3
 
 **Question**
 
-Is a no-fly zone under consideration as an option?
+Can we go back to North Korea, Mr. President?
 
 **Answer**
 
-That is one of the options that we would be looking at. First, in terms of Libya, I recognize and applaud the efforts undertaken by President Obama, as I said previously, to seek a solution in line with international law for this situation. For Mexico, it's absolutely clear that we cannot--it's not possible that civilians be massacred and not go punished, using weapons that are for the exclusive use of war. We must do everything that we can to avoid or stop that massacre.Mexico indeed has presented a resolution within the framework of the Human Rights Commission of the United Nations. And in this Libya has been sanctioned by the Commission. And we are of course taking part, insofar as we are able to, in the search for a solution to this problem.I believe that today it is--problem to revalue the principles and the values of human rights anywhere in the world--the principles and values ...
+Please.
 
 ## Example 8
-- ID: `1805`
+- ID: `901`
 - Task: `task1`
 - Split: `dev`
 - Gold: **Clear Reply**
-- president: Barack Obama
-- date: November 14, 2016
-- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1140
-- Notes: likely truncated
+- president: Donald J. Trump
+- date: February 29, 2020
+- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1267
 
 **Question**
 
-What is your advice about where the party goes now?
+Are you in talk with Turkish Government regarding this topic?
 
 **Answer**
 
-Good. One of the great things about the United States is that when it comes to world affairs, the President obviously is the leader of the executive branch, the Commander in Chief, the spokesperson for the Nation, but the influence and the work that we have is the result not just of the President. It is the result of countless interactions and arrangements and relationships between our military and other militaries and our diplomats and other diplomats and intelligence officers and development workers. And there is enormous continuity beneath the day-to-day news that makes us that indispensable nation when it comes to maintaining order and promoting prosperity around the world. That will continue. In my conversation with the President-elect, he expressed a great interest in maintaining our core strategic relationships. And so one of the messages I will be able to deliver is his ...
+We're speaking to President Erdogan a lot, and we are talking to him about exactly what you're referring to.
 
 ## Example 9
-- ID: `3259`
+- ID: `1478`
 - Task: `task1`
 - Split: `dev`
 - Gold: **Clear Reply**
-- president: George W. Bush
-- date: March 31, 2007
-- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-luiz-inacio-lula-da-silva-brazil-camp-david
-- Notes: likely truncated
+- president: Donald J. Trump
+- date: July 12, 2018
+- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-brussels-belgium
 
 **Question**
 
-Does Brazil have a B plan if the Doha round has not reached its success?
+German defense spending
 
 **Answer**
 
-Well, I have said to all the heads of state in government that I have been in contact and on—to President Bush, to Tony Blair, and to Chancellor Angela Merkel, to Prodi, Prime Minister Prodi, and to President Chirac—with all I have been talking to, I have said that the Doha round is not important only for Brazil; it's not important only for the United States; it's important so that we can guarantee hope around the world, and especially the certainty that we will have more peace in the world.Brazil is a competitive country in agriculture. Brazil, today, exports—50 percent of its exports are semi-industrialized goods. And so we do have the conditions—competitiveness conditions. President Bush knows, and I know, and I believe that all the leaders know that when we talk about agreements at the WTO, we are making an endeavor at the Doha round—we are working especially so that the less- ...
+Yes.

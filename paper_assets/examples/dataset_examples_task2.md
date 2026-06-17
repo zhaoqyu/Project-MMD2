@@ -1,40 +1,6 @@
 # Task 2 Dataset Examples
 
 ## Example 1
-- ID: `2968`
-- Task: `task2`
-- Split: `dev`
-- Gold: **Ambivalent**
-- president: George W. Bush
-- date: February 28, 2008
-- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1130
-
-**Question**
-
-Do you believe it's important for the American people to know who is giving money to their President?
-
-**Answer**
-
-No, yes, no, yes. [] Next question. [] I haven't— phew, man. You obviously haven't asked a question in a long time. It was like, you know, one, I haven't seen the final budget. Two, as Donnie Evans said, who is the chairman of the foundation, we'll look at the disclosure requirements and make a decision. Here's the—well, I—there's a lot of people—or some people; I shouldn't say a lot—some people who like to give and don't particularly want their names disclosed, whether it be for this foundation or any other foundation. And so we'll take that into consideration.Thirdly—and what was the other?
-
-## Example 2
-- ID: `3156`
-- Task: `task2`
-- Split: `dev`
-- Gold: **Ambivalent**
-- president: George W. Bush
-- date: July 12, 2007
-- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1136
-
-**Question**
-
-Will you keep that going through September even if there isn't?
-
-**Answer**
-
-Martha, as I mentioned in my opening remarks, we have felt all along that the security situation needed to change in order for there to be political progress. It's very hard for a young democracy to function with the violence that was raging. Secondly, there's a lot of the past that needs to be worked through the system. I mean, there's—living under the brutal tyrant Saddam Hussein created a lot of anxiety and a lot of tensions and a lot of rivalry, and it's just—it's going to take a while to work it through. But they couldn't work through those tensions and rivalries in the midst of serious violence.And so the strategy was, move in more troops to cause the violence to abate. And that's what David Petraeus will be reporting on.Yes, Jim [Jim Axelrod, CBS News].
-
-## Example 3
 - ID: `483`
 - Task: `task2`
 - Split: `dev`
@@ -52,7 +18,7 @@ Would Kimberly, Don Jr., and Ivanka Trump, who are very popular among Indian Ame
 
 Well, I didn't understand everything you said. I know India, and I understood—those young people that you mentioned. They're very good, young people. And I know their relationship to India is very good, and so is mine.And Prime Minister Modi is a friend of mine, and he's doing a very good job. Nothing easy—nothing easy, but he's doing a very good job.We're talking—I mean, while we're at it, we're talking about China and India. They're pretty—going at a pretty good on the border, as you know. It's been very nasty. It's been a very nasty situation, and we stand ready to help, with respect to China and India. If we can do anything, we would love to get involved and help, and we are talking to both countries about that.But I appreciate your nice sentiments. They think a lot of India, and so do I. And I think a lot of your Prime Minister. Thank you.
 
-## Example 4
+## Example 2
 - ID: `1068`
 - Task: `task2`
 - Split: `dev`
@@ -69,7 +35,7 @@ Can you definitively say whether or not Kamala Harris is eligible to run as Vice
 
 So I just heard that. I heard it today that she doesn't meet the requirements. And by the way, the lawyer that wrote that piece is a very highly qualified, very talented lawyer. I have no idea if that's right. I would have—I would have assumed the Democrats would have checked that out before she gets chosen to run for Vice President.
 
-## Example 5
+## Example 3
 - ID: `300`
 - Task: `task2`
 - Split: `test`
@@ -84,7 +50,7 @@ Previous conversations with Prime Minister Maliki: Did you feel confident that h
 
 On Iran?
 
-## Example 6
+## Example 4
 - ID: `3139`
 - Task: `task2`
 - Split: `dev`
@@ -101,74 +67,7 @@ What is your reaction to that report?
 
 I did say it should be a goal of the Nation to shut down Guantanamo. I also made it clear that part of the delay was the reluctance of some nations to take back some of the people being held there. In other words, in order to make it work, we've got to have a place for these people to go. I don't know if you noticed a resolution of the Senate the other day, where all but three Senators said we don't want these prisoners in the country. I don't know if it was a 97-3 vote, but it was something-to-3 vote. In other words, part of the issue, Peter, is the practical issue of what do we do with the people?And you say nothing has taken place. I strongly disagree with that. First of all, we are working with other nations to send folks back. Again, it's a fairly steep order. A lot of people don't want killers in their midst, and a lot of these people are killers. Secondly, of course, we want ...
 
-## Example 7
-- ID: `1294`
-- Task: `task2`
-- Split: `dev`
-- Gold: **Clear Non-Reply**
-- president: Donald J. Trump
-- date: February 28, 2019
-- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-hanoi-vietnam
-
-**Question**
-
-Is Prime Minister Netanyahu willing to make the compromises that are needed for Israel to resolve its issues with the Palestinians?
-
-**Answer**
-
-Well, I just think he's been a great Prime Minister. And I don't know about his difficulty, but you're telling me something that, you know, the—people have been hearing about. But I don't know about that.I can say this: that he's done a great job as Prime Minister. He's tough, he's smart, he's strong. He is very defensive. His military has been built up a lot. They buy a lot of equipment from the United States, and they pay for it. Of course, we give them tremendous, as you know, subsidy, also. Four billion dollars is a lot each year. But they are—they've been very good. They've been incredible, actually, in many ways. But there is a chance for peace between Israel and the Palestinians.And you know, it's interesting, all of my life, I've heard that the toughest of all deals—when they talk about tough deals; we all like deals—but the toughest of all deals would be peace between Israel ...
-
-## Example 8
-- ID: `2043`
-- Task: `task2`
-- Split: `dev`
-- Gold: **Clear Non-Reply**
-- president: Barack Obama
-- date: November 05, 2014
-- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1146
-
-**Question**
-
-Asking for the person's opinion on whether they think something was a mistake.
-
-**Answer**
-
-I'll let other people analyze that. But what I will emphasize is that one of the nice things about being in the sixth year of your Presidency is, you've seen a lot of ups and downs and you've gotten more than your fair share of attention. And I've had the limelight, and I've—there have been times where the request for my appearances were endless. There have been times where, politically, we were down. And it all kind of evens out, which is why what's most important, I think, is keeping your eye on the ball, and that is, are you actually getting some good done?Scott Horsley [National Public Radio], last question.
-
-## Example 9
-- ID: `174`
-- Task: `task2`
-- Split: `test`
-- Gold: **Clear Reply**
-- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-5
-- Notes: likely multi-part question
-
-**Question**
-
-What are your thoughts on Chinese officials saying that you need to get involved in the six-party talks and stop dealing with the issue of money laundering, and instead focus on the real issue of ballistic missiles?
-
-**Answer**
-
-Well, counterfeiting U.S. dollars is an issue that every President ought to be concerned about. And when you catch people counterfeiting your money, you need to do something about it.We are very much involved in the six-party talks. As a matter of fact, I talked to Hu Jintao this morning about the six-party talks and about the need for us to continue to work together to send a clear message to the n leader that there is a better choice for him than to continue to develop a nuclear weapon. The six-party talks are—is an important part of our—the six-party talks are an important part of our strategy of dealing with Kim Jong Il. And the n—the Chinese President recognized that in the phone call today. And so we talked about how we'll continue to collaborate and work together.Jim [Jim Rutenberg, New York Times].
-
-## Example 10
-- ID: `1272`
-- Task: `task2`
-- Split: `dev`
-- Gold: **Clear Reply**
-- president: Donald J. Trump
-- date: February 28, 2019
-- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-hanoi-vietnam
-
-**Question**
-
-Did you get any distance toward, sort of, what Kim's vision of denuclearization is?
-
-**Answer**
-
-Yes, we did. We did.
-
-## Example 11
+## Example 5
 - ID: `240`
 - Task: `task2`
 - Split: `test`
@@ -183,7 +82,7 @@ The sufficiency of the Fed's half-point rate cut to stave off recession
 
 Roger, I do not comment on the decisions made by the Fed. I will comment on Ben Bernanke; I think he's doing a fine job. The White House and the Congress are responsible for fiscal policy. The worst decision the Congress could make would be to raise taxes during this period. We don't need to raise taxes in order to fund budget priorities. We have submitted a budget that shows we can get to balance by 2012 without raising taxes, and its one of the reasons I feel so strongly about—that's why I'm not going to let the taxes be raised.Fletch [Michael Fletcher, Washington Post].
 
-## Example 12
+## Example 6
 - ID: `288`
 - Task: `task2`
 - Split: `test`
@@ -198,7 +97,7 @@ What does President Kikwete think it says about America, that the country might 
 
 It seemed like there was a lot of excitement for me—wait a minute. [] Maybe I—maybe you missed it.Anyway, look, my attitude toward Congress is, look, see what works. PEPFAR is working. It is a balanced program. It is an ABC program: abstinence, be faithful, and condoms. It's a program that's been proven effective. And I understand there's voices on both ends of the political spectrum trying to alter the program. I would ask Congress to listen to leaders on the continent of Africa, find—analyze what works, stop the squabbling, and get the program reauthorized. One of the worst things that can happen is, there's uncertainty. You got a lot of faith-based providers and community organizers here wondering whether or not America will keep its commitment.And so I—you know, I can understand debates, and those are fine. But they need to end the debates, adopt a reasonable policy—I happen to ...
 
-## Example 13
+## Example 7
 - ID: `52`
 - Task: `task2`
 - Split: `dev`
@@ -215,7 +114,7 @@ Do you think that if there is a breach, nobody is going to blame you?
 
 Of course, no one would blame me. I know you won't. You'll be saying, Biden did a wonderful job. [] I know you.
 
-## Example 14
+## Example 8
 - ID: `2896`
 - Task: `task2`
 - Split: `dev`
@@ -233,7 +132,7 @@ What is the security context with regard to what's happening to NAFTA and the FT
 
 First of all, I—we're not in a recession, we're in a slowdown. We grew in the fourth quarter of last year. We haven't had first-quarter growth statistics yet, but there's no question, we're in a slowdown. And yes, people are concerned about it, obviously. I'm—of all the three of us standing up here, I'm probably the most concerned about the slowdown. After all, it's affecting the people who I have the honor of representing.That's why we passed, in working with the Congress, a significant progrowth economic package that will pass back rebates to our citizens, starting in the second week of May. Part of that package also included incentives for large and small businesses to invest in the year 2008. I think this is going to have a positive effect on the economy. Experts say it's going to have a positive effect on the economy. And so we'll see what happens there. The key is for Congress ...
 
-## Example 15
+## Example 9
 - ID: `83`
 - Task: `task2`
 - Split: `test`
@@ -248,7 +147,7 @@ Has the U.S. reached out to Grand Ayatollah Ali al-Sistani?
 
 Well, I haven't made up my mind yet about more troops. I'm listening to our commanders; I'm listening to the Joint Chiefs, of course; I'm listening to people in and out of Government; I'm listening to the folks on the Baker-Hamilton commission about coming up with a strategy that helps us achieve our objective. And so as I said to Caren—probably a little more harshly than she would have liked—hypothetical questions, I'm not going to answer them today. I'm not going to speculate out loud about what I'm going to tell the Nation, when I'm prepared to do so, about the way forward.I will tell you we're looking at all options. And one of those options, of course, is increasing more troops. But in order to do so, there must be a specific mission that can be accomplished with more troops. And that's precisely what our commanders have said, as well as people who know a lot about military ...
 
-## Example 16
+## Example 10
 - ID: `1342`
 - Task: `task2`
 - Split: `dev`
@@ -265,7 +164,7 @@ Would you consider any for a post?
 
 It's tough enough for those people to have a loss.
 
-## Example 17
+## Example 11
 - ID: `60`
 - Task: `task2`
 - Split: `test`
@@ -280,7 +179,7 @@ Request for permission to ask another question on veterans.
 
 Go ahead—he hasn't asked his question yet. I rudely interrupted him.The Presidency/Cooperation With Congress/
 
-## Example 18
+## Example 12
 - ID: `3242`
 - Task: `task2`
 - Split: `dev`
@@ -298,7 +197,7 @@ What ideas do you have for breaking this logjam going forward?
 
 Well, first of all, haven't vetoed the first bill yet. But I'm going to. And the reason why I'm going to is because the Members of Congress have made military decisions on behalf of the military. They're telling our generals what to do. They're withdrawing before we've even finished reinforcing our troops in Baghdad. They're sending, in my judgment, a bad message to the Iraqis and to an enemy and, most importantly, to our military folks. And so I made it clear, I'd veto.And, by the way, they're adding spending that shouldn't belong in the bill in the first place. Maybe they're important issues, but they ought to be—these spending bills ought to be—or spending issues ought to be debated in the normal course of business. And so I've said this all along; my position has been consistent.I'm sorry it's come to this. In other words, I'm sorry that we've had this, you know, the issue evolve ...
 
-## Example 19
+## Example 13
 - ID: `217`
 - Task: `task2`
 - Split: `test`
@@ -313,7 +212,7 @@ Is the administration at this time trying to play it both ways by appeasing the 
 
 Suzanne, I think I went on to say on Air Force One, if I recall, somewhere between Baghdad and Sydney, that, why don't we all just wait and see what David Petraeus says when he comes— General Petraeus, when he comes back to America. He and Ambassador Crocker are going to come back, and they're going to report to me and report to the Congress and the American people about their recommendations on the way forward. I will then take their recommendations into account as I develop the strategy necessary to win in Iraq.That's what I'm interested in. I'm not interested in artificial timetables or dates of withdrawal; I'm interested in achieving objective. I repeat: If you think it's not important that we're there, then you're going to find excuses to get out. If you think it is important to be there, then you ought to be thinking about ways to achieve our objectives. And we are achieving ...
 
-## Example 20
+## Example 14
 - ID: `1581`
 - Task: `task2`
 - Split: `dev`
@@ -330,7 +229,7 @@ Does it have to have a sunset clause in it?
 
 It will have a sunset. You have the two sunsets. I mean, you have an ISDS provision and a sunset provision. They've been very heavily negotiated. You have two sunsets, two concepts of sunset. We're pretty close on the sunset division. Okay?
 
-## Example 21
+## Example 15
 - ID: `143`
 - Task: `task2`
 - Split: `test`
@@ -345,7 +244,7 @@ Has it made it more complicated in your mind?
 
 I think it offers an opportunity as well as a challenge. I think the opportunity is that when you have the kinds of people who were in Tahrir Square, feeling that they have hope and they have opportunity, then they're less likely to channel all their frustrations into anti-Israeli sentiment or anti-Western sentiment, because they see the prospect of building their own country. That's a positive.The challenge is that democracy is messy, right? And so they're--and if you're trying to negotiate with a democracy, you don't just have one person to negotiate with, you have to negotiate with a wider range of views.But I like the odds of actually getting a better outcome in the former circumstance than in the latter.All right. Mike Emanuel [FOX News]./Job Growth
 
-## Example 22
+## Example 16
 - ID: `2641`
 - Task: `task2`
 - Split: `dev`
@@ -362,7 +261,7 @@ Is it pretty much a do-or-die by the August recess?
 
 I never believe anything is do-or-die. But I really want to get it done by the August recess. []Christi Parsons [Chicago Tribune]—hometown girl. Is Christi around?
 
-## Example 23
+## Example 17
 - ID: `675`
 - Task: `task2`
 - Split: `dev`
@@ -379,7 +278,7 @@ Do you believe that intelligence?
 
 It could be. I mean, it could be—very much. I think that the last person Russia wants to see in office is Donald Trump because nobody has been tougher on Russia than I have, ever.
 
-## Example 24
+## Example 18
 - ID: `1121`
 - Task: `task2`
 - Split: `dev`

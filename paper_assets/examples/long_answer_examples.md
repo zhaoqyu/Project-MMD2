@@ -2,9 +2,9 @@
 
 ## Example 1
 - ID: `1736`
-- Task: `task2`
+- Task: `task1`
 - Split: `dev`
-- Gold: **Dodging**
+- Gold: **Ambivalent**
 - president: Barack Obama
 - date: December 16, 2016
 - url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1139
@@ -146,7 +146,7 @@ Well, first of all, with respect to the transition, I think they would be the fi
 
 ## Example 9
 - ID: `1736`
-- Task: `task2`
+- Task: `task1`
 - Split: `dev`
 - Gold: **Ambivalent**
 - president: Barack Obama

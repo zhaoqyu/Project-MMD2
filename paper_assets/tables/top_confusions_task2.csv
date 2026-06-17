@@ -1,7 +1,36 @@
 gold_label,predicted_label,count,percent_of_gold_class
-Ambivalent,Clear Reply,80,0.19607843137254902
-Clear Reply,Ambivalent,69,0.32701421800947866
-Ambivalent,Clear Non-Reply,25,0.061274509803921566
-Clear Non-Reply,Ambivalent,21,0.29577464788732394
-Clear Non-Reply,Clear Reply,5,0.07042253521126761
-Clear Reply,Clear Non-Reply,2,0.009478672985781991
+Implicit,Explicit,26,0.45614035087719296
+Implicit,Dodging,22,0.38596491228070173
+General,Dodging,20,0.4166666666666667
+General,Explicit,17,0.3541666666666667
+Explicit,Dodging,11,0.14285714285714285
+Dodging,Claims ignorance,6,0.12
+Explicit,Implicit,6,0.07792207792207792
+Deflection,Dodging,6,0.35294117647058826
+Dodging,Implicit,5,0.1
+Dodging,Declining to answer,5,0.1
+Deflection,Explicit,4,0.23529411764705882
+Dodging,Explicit,4,0.08
+General,Implicit,3,0.0625
+Declining to answer,Deflection,3,0.2727272727272727
+Explicit,General,2,0.025974025974025976
+Dodging,General,2,0.04
+Dodging,Deflection,2,0.04
+Implicit,General,2,0.03508771929824561
+Implicit,Deflection,2,0.03508771929824561
+Declining to answer,Dodging,2,0.18181818181818182
+Claims ignorance,Dodging,2,0.25
+General,Declining to answer,2,0.041666666666666664
+General,Claims ignorance,2,0.041666666666666664
+Deflection,Implicit,2,0.11764705882352941
+Explicit,Claims ignorance,1,0.012987012987012988
+Explicit,Deflection,1,0.012987012987012988
+Deflection,General,1,0.058823529411764705
+Partial/half-answer,Dodging,1,0.3333333333333333
+Partial/half-answer,Explicit,1,0.3333333333333333
+Deflection,Claims ignorance,1,0.058823529411764705
+Declining to answer,Implicit,1,0.09090909090909091
+Partial/half-answer,Deflection,1,0.3333333333333333
+Declining to answer,Claims ignorance,1,0.09090909090909091
+Claims ignorance,General,1,0.125
+Clarification,Dodging,1,0.25
