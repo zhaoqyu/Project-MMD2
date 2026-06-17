@@ -1,0 +1,4 @@
+task,split,experiment,source_file,label,precision,recall,f1,support
+task2,dev,DeBERTa-v3-base multi-task,outputs/runs/multitask/deberta_v3_base_multitask_microsoft_deberta_v3_base_multitask_seed42_20260617_005757/artifacts/task1/dev_predictions.csv,Clear Non-Reply,0.625,0.6338028169014085,0.6293706293706294,71.0
+task2,dev,DeBERTa-v3-base multi-task,outputs/runs/multitask/deberta_v3_base_multitask_microsoft_deberta_v3_base_multitask_seed42_20260617_005757/artifacts/task1/dev_predictions.csv,Clear Reply,0.6222222222222222,0.6635071090047393,0.6422018348623854,211.0
+task2,dev,DeBERTa-v3-base multi-task,outputs/runs/multitask/deberta_v3_base_multitask_microsoft_deberta_v3_base_multitask_seed42_20260617_005757/artifacts/task1/dev_predictions.csv,Ambivalent,0.7709923664122137,0.7426470588235294,0.7565543071161048,408.0

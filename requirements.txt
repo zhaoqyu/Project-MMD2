@@ -1,0 +1,14 @@
+torch
+transformers>=4.44
+datasets
+accelerate
+scikit-learn
+pandas
+numpy
+pyyaml
+sentencepiece
+protobuf
+matplotlib
+seaborn
+jupyter
+

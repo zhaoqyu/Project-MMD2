@@ -1,0 +1,22 @@
+experiment_name: deberta_v3_base_task1
+task: task1
+seeds: [42]
+output_dir: outputs
+model:
+  model_name: microsoft/deberta-v3-base
+  tokenizer_use_fast: false
+data:
+  max_length: 256
+  input_template: default
+training:
+  num_train_epochs: 6
+  per_device_train_batch_size: 8
+  per_device_eval_batch_size: 16
+  gradient_accumulation_steps: 2
+  learning_rate: 0.000015
+  fp16: true
+  early_stopping_patience: 2
+loss:
+  name: cross_entropy
+  use_class_weights: false
+

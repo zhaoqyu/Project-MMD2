@@ -1,0 +1,7 @@
+task,split,label,count,percent
+task1,dev,Ambivalent,2856,0.591304347826087
+task1,dev,Clear Reply,1477,0.30579710144927535
+task1,dev,Clear Non-Reply,497,0.10289855072463767
+task1,test,Ambivalent,1442,0.6688311688311688
+task1,test,Clear Reply,553,0.2564935064935065
+task1,test,Clear Non-Reply,161,0.07467532467532467

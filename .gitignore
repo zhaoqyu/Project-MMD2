@@ -1,12 +1,9 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+outputs/runs/
+outputs/splits/
+outputs/slurm_logs/
+*.log
 
-# Local environment
-/.venv/
-
-# Training outputs
-/artifacts/
-/logs/
-/runs/
-
-# Local scratch files
-/pipeline.py
-/src/

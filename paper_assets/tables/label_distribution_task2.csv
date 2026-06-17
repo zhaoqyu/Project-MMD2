@@ -1,0 +1,25 @@
+task,split,label,count,percent
+task2,dev,Explicit,1688,0.2718196457326892
+task2,dev,Dodging,1112,0.17906602254428342
+task2,dev,Implicit,786,0.12657004830917876
+task2,dev,Deflection,619,0.0996779388083736
+task2,dev,General,616,0.09919484702093398
+task2,dev,Ambivalent,408,0.06570048309178744
+task2,dev,Declining to answer,230,0.037037037037037035
+task2,dev,Clear Reply,211,0.03397745571658615
+task2,dev,Claims ignorance,192,0.030917874396135265
+task2,dev,Clarification,146,0.023510466988727857
+task2,dev,Partial/half-answer,131,0.02109500805152979
+task2,dev,Clear Non-Reply,71,0.011433172302737521
+task2,test,Explicit,616,0.24561403508771928
+task2,test,Implicit,456,0.18181818181818182
+task2,test,Dodging,400,0.1594896331738437
+task2,test,General,384,0.15311004784688995
+task2,test,Ambivalent,206,0.08213716108452951
+task2,test,Deflection,136,0.05422647527910686
+task2,test,Declining to answer,88,0.03508771929824561
+task2,test,Clear Reply,79,0.03149920255183413
+task2,test,Claims ignorance,64,0.025518341307814992
+task2,test,Clarification,32,0.012759170653907496
+task2,test,Partial/half-answer,24,0.009569377990430622
+task2,test,Clear Non-Reply,23,0.009170653907496013

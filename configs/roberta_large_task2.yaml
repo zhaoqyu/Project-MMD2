@@ -1,0 +1,23 @@
+experiment_name: roberta_large_task2
+task: task2
+seeds: [42]
+output_dir: outputs
+model:
+  model_name: roberta-large
+  gradient_checkpointing: true
+data:
+  max_length: 256
+  input_template: default
+training:
+  num_train_epochs: 5
+  per_device_train_batch_size: 2
+  per_device_eval_batch_size: 4
+  gradient_accumulation_steps: 8
+  learning_rate: 0.00001
+  fp16: true
+  save_total_limit: 1
+  early_stopping_patience: 2
+loss:
+  name: cross_entropy
+  use_class_weights: false
+

@@ -1,0 +1,21 @@
+experiment_name: bert_base_task1
+task: task1
+seeds: [42]
+output_dir: outputs
+model:
+  model_name: bert-base-uncased
+data:
+  max_length: 256
+  input_template: default
+training:
+  num_train_epochs: 5
+  per_device_train_batch_size: 16
+  per_device_eval_batch_size: 32
+  gradient_accumulation_steps: 1
+  learning_rate: 0.00002
+  fp16: false
+  early_stopping_patience: 2
+loss:
+  name: cross_entropy
+  use_class_weights: false
+
