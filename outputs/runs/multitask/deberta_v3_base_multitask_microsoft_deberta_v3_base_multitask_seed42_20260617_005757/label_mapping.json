@@ -1,0 +1,54 @@
+{
+  "task1": {
+    "label_names": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "label2id": {
+      "Clear Reply": 0,
+      "Ambivalent": 1,
+      "Clear Non-Reply": 2
+    },
+    "id2label": {
+      "0": "Clear Reply",
+      "1": "Ambivalent",
+      "2": "Clear Non-Reply"
+    }
+  },
+  "task2": {
+    "label_names": [
+      "Explicit",
+      "Implicit",
+      "Dodging",
+      "General",
+      "Deflection",
+      "Partial/half-answer",
+      "Declining to answer",
+      "Claims ignorance",
+      "Clarification"
+    ],
+    "label2id": {
+      "Explicit": 0,
+      "Implicit": 1,
+      "Dodging": 2,
+      "General": 3,
+      "Deflection": 4,
+      "Partial/half-answer": 5,
+      "Declining to answer": 6,
+      "Claims ignorance": 7,
+      "Clarification": 8
+    },
+    "id2label": {
+      "0": "Explicit",
+      "1": "Implicit",
+      "2": "Dodging",
+      "3": "General",
+      "4": "Deflection",
+      "5": "Partial/half-answer",
+      "6": "Declining to answer",
+      "7": "Claims ignorance",
+      "8": "Clarification"
+    }
+  }
+}

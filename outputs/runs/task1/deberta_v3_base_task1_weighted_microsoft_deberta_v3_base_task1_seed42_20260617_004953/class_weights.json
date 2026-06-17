@@ -1,0 +1,12 @@
+{
+  "class_weights": [
+    1.0931430836305984,
+    0.5633169934640523,
+    3.225730994152047
+  ],
+  "label_names": [
+    "Clear Reply",
+    "Ambivalent",
+    "Clear Non-Reply"
+  ]
+}

@@ -1,0 +1,611 @@
+{
+  "run_dir": "outputs/runs/task2/deberta_v3_base_task2_politician_answer_microsoft_deberta_v3_base_task2_seed42_20260617_005355",
+  "experiment_name": "deberta_v3_base_task2_politician_answer",
+  "task": "task2",
+  "model_name": "microsoft/deberta-v3-base",
+  "seed": 42,
+  "dev_metrics": {
+    "macro_f1": 0.2767183073782321,
+    "weighted_f1": 0.3604990916015979,
+    "accuracy": 0.4144927536231884,
+    "explicit_precision": 0.49363057324840764,
+    "explicit_recall": 0.7345971563981043,
+    "explicit_f1": 0.5904761904761905,
+    "explicit_support": 211.0,
+    "implicit_precision": 0.2441860465116279,
+    "implicit_recall": 0.21428571428571427,
+    "implicit_f1": 0.22826086956521738,
+    "implicit_support": 98.0,
+    "dodging_precision": 0.41025641025641024,
+    "dodging_recall": 0.5673758865248227,
+    "dodging_f1": 0.47619047619047616,
+    "dodging_support": 141.0,
+    "general_precision": 0.0,
+    "general_recall": 0.0,
+    "general_f1": 0.0,
+    "general_support": 77.0,
+    "deflection_precision": 0.17543859649122806,
+    "deflection_recall": 0.13157894736842105,
+    "deflection_f1": 0.15037593984962405,
+    "deflection_support": 76.0,
+    "partial_half_answer_precision": 0.0,
+    "partial_half_answer_recall": 0.0,
+    "partial_half_answer_f1": 0.0,
+    "partial_half_answer_support": 16.0,
+    "declining_to_answer_precision": 0.47619047619047616,
+    "declining_to_answer_recall": 0.3448275862068966,
+    "declining_to_answer_f1": 0.4,
+    "declining_to_answer_support": 29.0,
+    "claims_ignorance_precision": 0.0,
+    "claims_ignorance_recall": 0.0,
+    "claims_ignorance_f1": 0.0,
+    "claims_ignorance_support": 24.0,
+    "clarification_precision": 0.7692307692307693,
+    "clarification_recall": 0.5555555555555556,
+    "clarification_f1": 0.6451612903225806,
+    "clarification_support": 18.0,
+    "classification_report": {
+      "Explicit": {
+        "precision": 0.49363057324840764,
+        "recall": 0.7345971563981043,
+        "f1-score": 0.5904761904761905,
+        "support": 211.0
+      },
+      "Implicit": {
+        "precision": 0.2441860465116279,
+        "recall": 0.21428571428571427,
+        "f1-score": 0.22826086956521738,
+        "support": 98.0
+      },
+      "Dodging": {
+        "precision": 0.41025641025641024,
+        "recall": 0.5673758865248227,
+        "f1-score": 0.47619047619047616,
+        "support": 141.0
+      },
+      "General": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 77.0
+      },
+      "Deflection": {
+        "precision": 0.17543859649122806,
+        "recall": 0.13157894736842105,
+        "f1-score": 0.15037593984962405,
+        "support": 76.0
+      },
+      "Partial/half-answer": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 16.0
+      },
+      "Declining to answer": {
+        "precision": 0.47619047619047616,
+        "recall": 0.3448275862068966,
+        "f1-score": 0.4,
+        "support": 29.0
+      },
+      "Claims ignorance": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 24.0
+      },
+      "Clarification": {
+        "precision": 0.7692307692307693,
+        "recall": 0.5555555555555556,
+        "f1-score": 0.6451612903225806,
+        "support": 18.0
+      },
+      "accuracy": 0.4144927536231884,
+      "macro avg": {
+        "precision": 0.28543698576987997,
+        "recall": 0.2831356495932794,
+        "f1-score": 0.2767183073782321,
+        "support": 690.0
+      },
+      "weighted avg": {
+        "precision": 0.3288716642735049,
+        "recall": 0.4144927536231884,
+        "f1-score": 0.3604990916015979,
+        "support": 690.0
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "Explicit",
+        "Implicit",
+        "Dodging",
+        "General",
+        "Deflection",
+        "Partial/half-answer",
+        "Declining to answer",
+        "Claims ignorance",
+        "Clarification"
+      ],
+      "matrix": [
+        [
+          155,
+          19,
+          28,
+          0,
+          8,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          42,
+          21,
+          23,
+          0,
+          9,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          32,
+          14,
+          80,
+          0,
+          12,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          36,
+          16,
+          17,
+          0,
+          8,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          34,
+          12,
+          18,
+          0,
+          10,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          5,
+          3,
+          3,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          11,
+          0,
+          2,
+          0,
+          10,
+          1,
+          1
+        ],
+        [
+          5,
+          1,
+          8,
+          0,
+          3,
+          0,
+          7,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      ]
+    }
+  },
+  "test_metrics": {
+    "majority_consensus_count": 275,
+    "unanimous_count": 125,
+    "unresolved_disagreement_count": 33,
+    "any_annotator_match_rate": 0.5097402597402597,
+    "any_annotator_match_count": 157,
+    "any_annotator_match_denominator": 308,
+    "majority_macro_f1": 0.23751366966974258,
+    "majority_weighted_f1": 0.3082342417245431,
+    "majority_accuracy": 0.3781818181818182,
+    "majority_classification_report": {
+      "Explicit": {
+        "precision": 0.45901639344262296,
+        "recall": 0.7272727272727273,
+        "f1-score": 0.5628140703517588,
+        "support": 77.0
+      },
+      "Implicit": {
+        "precision": 0.35,
+        "recall": 0.24561403508771928,
+        "f1-score": 0.28865979381443296,
+        "support": 57.0
+      },
+      "Dodging": {
+        "precision": 0.3020833333333333,
+        "recall": 0.58,
+        "f1-score": 0.3972602739726027,
+        "support": 50.0
+      },
+      "General": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 48.0
+      },
+      "Deflection": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 17.0
+      },
+      "Partial/half-answer": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "Declining to answer": {
+        "precision": 0.2857142857142857,
+        "recall": 0.18181818181818182,
+        "f1-score": 0.2222222222222222,
+        "support": 11.0
+      },
+      "Claims ignorance": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 8.0
+      },
+      "Clarification": {
+        "precision": 0.6,
+        "recall": 0.75,
+        "f1-score": 0.6666666666666666,
+        "support": 4.0
+      },
+      "accuracy": 0.3781818181818182,
+      "macro avg": {
+        "precision": 0.22186822361002687,
+        "recall": 0.2760783271309587,
+        "f1-score": 0.23751366966974258,
+        "support": 275.0
+      },
+      "weighted avg": {
+        "precision": 0.2761501312894756,
+        "recall": 0.3781818181818182,
+        "f1-score": 0.3082342417245431,
+        "support": 275.0
+      }
+    },
+    "majority_confusion_matrix": {
+      "labels": [
+        "Explicit",
+        "Implicit",
+        "Dodging",
+        "General",
+        "Deflection",
+        "Partial/half-answer",
+        "Declining to answer",
+        "Claims ignorance",
+        "Clarification"
+      ],
+      "matrix": [
+        [
+          56,
+          8,
+          13,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          29,
+          14,
+          14,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          11,
+          4,
+          29,
+          0,
+          3,
+          0,
+          1,
+          0,
+          2
+        ],
+        [
+          19,
+          8,
+          15,
+          0,
+          2,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          5,
+          4,
+          8,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          7,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          8,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ]
+    },
+    "unanimous_macro_f1": 0.2853662068715832,
+    "unanimous_weighted_f1": 0.4636577386770935,
+    "unanimous_accuracy": 0.528,
+    "unanimous_classification_report": {
+      "Explicit": {
+        "precision": 0.6666666666666666,
+        "recall": 0.8936170212765957,
+        "f1-score": 0.7636363636363637,
+        "support": 47.0
+      },
+      "Implicit": {
+        "precision": 0.25,
+        "recall": 0.15789473684210525,
+        "f1-score": 0.1935483870967742,
+        "support": 19.0
+      },
+      "Dodging": {
+        "precision": 0.43243243243243246,
+        "recall": 0.5925925925925926,
+        "f1-score": 0.5,
+        "support": 27.0
+      },
+      "General": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 11.0
+      },
+      "Deflection": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 7.0
+      },
+      "Partial/half-answer": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "Declining to answer": {
+        "precision": 0.5,
+        "recall": 0.4,
+        "f1-score": 0.4444444444444444,
+        "support": 5.0
+      },
+      "Claims ignorance": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 4.0
+      },
+      "Clarification": {
+        "precision": 0.6,
+        "recall": 0.75,
+        "f1-score": 0.6666666666666666,
+        "support": 4.0
+      },
+      "accuracy": 0.528,
+      "macro avg": {
+        "precision": 0.2721221221221221,
+        "recall": 0.3104560389679215,
+        "f1-score": 0.2853662068715832,
+        "support": 125.0
+      },
+      "weighted avg": {
+        "precision": 0.421272072072072,
+        "recall": 0.528,
+        "f1-score": 0.4636577386770935,
+        "support": 125.0
+      }
+    },
+    "unanimous_confusion_matrix": {
+      "labels": [
+        "Explicit",
+        "Implicit",
+        "Dodging",
+        "General",
+        "Deflection",
+        "Partial/half-answer",
+        "Declining to answer",
+        "Claims ignorance",
+        "Clarification"
+      ],
+      "matrix": [
+        [
+          42,
+          3,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          9,
+          3,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          3,
+          16,
+          0,
+          2,
+          0,
+          1,
+          0,
+          2
+        ],
+        [
+          5,
+          1,
+          2,
+          0,
+          2,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          4,
+          2,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ]
+    }
+  }
+}

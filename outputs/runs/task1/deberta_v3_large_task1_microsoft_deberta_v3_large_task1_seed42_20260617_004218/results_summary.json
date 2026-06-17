@@ -1,0 +1,171 @@
+{
+  "run_dir": "outputs/runs/task1/deberta_v3_large_task1_microsoft_deberta_v3_large_task1_seed42_20260617_004218",
+  "experiment_name": "deberta_v3_large_task1",
+  "task": "task1",
+  "model_name": "microsoft/deberta-v3-large",
+  "seed": 42,
+  "dev_metrics": {
+    "macro_f1": 0.6902753198799486,
+    "weighted_f1": 0.7213277491123283,
+    "accuracy": 0.7260869565217392,
+    "clear_reply_precision": 0.659217877094972,
+    "clear_reply_recall": 0.5592417061611374,
+    "clear_reply_f1": 0.6051282051282051,
+    "clear_reply_support": 211.0,
+    "ambivalent_precision": 0.7556053811659192,
+    "ambivalent_recall": 0.8259803921568627,
+    "ambivalent_f1": 0.7892271662763466,
+    "ambivalent_support": 408.0,
+    "clear_non_reply_precision": 0.7076923076923077,
+    "clear_non_reply_recall": 0.647887323943662,
+    "clear_non_reply_f1": 0.6764705882352942,
+    "clear_non_reply_support": 71.0,
+    "classification_report": {
+      "Clear Reply": {
+        "precision": 0.659217877094972,
+        "recall": 0.5592417061611374,
+        "f1-score": 0.6051282051282051,
+        "support": 211.0
+      },
+      "Ambivalent": {
+        "precision": 0.7556053811659192,
+        "recall": 0.8259803921568627,
+        "f1-score": 0.7892271662763466,
+        "support": 408.0
+      },
+      "Clear Non-Reply": {
+        "precision": 0.7076923076923077,
+        "recall": 0.647887323943662,
+        "f1-score": 0.6764705882352942,
+        "support": 71.0
+      },
+      "accuracy": 0.7260869565217392,
+      "macro avg": {
+        "precision": 0.7075051886510663,
+        "recall": 0.6777031407538874,
+        "f1-score": 0.6902753198799486,
+        "support": 690.0
+      },
+      "weighted avg": {
+        "precision": 0.7212001759838955,
+        "recall": 0.7260869565217392,
+        "f1-score": 0.7213277491123283,
+        "support": 690.0
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "Clear Reply",
+        "Ambivalent",
+        "Clear Non-Reply"
+      ],
+      "matrix": [
+        [
+          118,
+          89,
+          4
+        ],
+        [
+          56,
+          337,
+          15
+        ],
+        [
+          5,
+          20,
+          46
+        ]
+      ]
+    },
+    "ambivalent_vs_clear_non_reply": {
+      "ambivalent_gold_count": 408,
+      "clear_non_reply_gold_count": 71,
+      "ambivalent_predicted_clear_non_reply": 15,
+      "clear_non_reply_predicted_ambivalent": 20,
+      "ambivalent_to_clear_non_reply_rate": 0.03676470588235294,
+      "clear_non_reply_to_ambivalent_rate": 0.28169014084507044
+    }
+  },
+  "test_metrics": {
+    "macro_f1": 0.5946461535008725,
+    "weighted_f1": 0.6985850672413314,
+    "accuracy": 0.698051948051948,
+    "clear_reply_precision": 0.5487804878048781,
+    "clear_reply_recall": 0.569620253164557,
+    "clear_reply_f1": 0.5590062111801242,
+    "clear_reply_support": 79.0,
+    "ambivalent_precision": 0.7843137254901961,
+    "ambivalent_recall": 0.7766990291262136,
+    "ambivalent_f1": 0.7804878048780488,
+    "ambivalent_support": 206.0,
+    "clear_non_reply_precision": 0.45454545454545453,
+    "clear_non_reply_recall": 0.43478260869565216,
+    "clear_non_reply_f1": 0.4444444444444444,
+    "clear_non_reply_support": 23.0,
+    "classification_report": {
+      "Clear Reply": {
+        "precision": 0.5487804878048781,
+        "recall": 0.569620253164557,
+        "f1-score": 0.5590062111801242,
+        "support": 79.0
+      },
+      "Ambivalent": {
+        "precision": 0.7843137254901961,
+        "recall": 0.7766990291262136,
+        "f1-score": 0.7804878048780488,
+        "support": 206.0
+      },
+      "Clear Non-Reply": {
+        "precision": 0.45454545454545453,
+        "recall": 0.43478260869565216,
+        "f1-score": 0.4444444444444444,
+        "support": 23.0
+      },
+      "accuracy": 0.698051948051948,
+      "macro avg": {
+        "precision": 0.5958798892801762,
+        "recall": 0.5937006303288076,
+        "f1-score": 0.5946461535008725,
+        "support": 308.0
+      },
+      "weighted avg": {
+        "precision": 0.6992754267601015,
+        "recall": 0.698051948051948,
+        "f1-score": 0.6985850672413314,
+        "support": 308.0
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "Clear Reply",
+        "Ambivalent",
+        "Clear Non-Reply"
+      ],
+      "matrix": [
+        [
+          45,
+          32,
+          2
+        ],
+        [
+          36,
+          160,
+          10
+        ],
+        [
+          1,
+          12,
+          10
+        ]
+      ]
+    },
+    "ambivalent_vs_clear_non_reply": {
+      "ambivalent_gold_count": 206,
+      "clear_non_reply_gold_count": 23,
+      "ambivalent_predicted_clear_non_reply": 10,
+      "clear_non_reply_predicted_ambivalent": 12,
+      "ambivalent_to_clear_non_reply_rate": 0.04854368932038835,
+      "clear_non_reply_to_ambivalent_rate": 0.5217391304347826
+    }
+  }
+}

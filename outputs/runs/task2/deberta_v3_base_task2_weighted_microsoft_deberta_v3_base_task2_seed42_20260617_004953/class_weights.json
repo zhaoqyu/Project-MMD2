@@ -1,0 +1,24 @@
+{
+  "class_weights": [
+    0.36438102787686616,
+    0.7857549857549857,
+    0.5423795476892822,
+    0.9917295936713413,
+    1.004735883424408,
+    4.864197530864198,
+    2.6417624521072796,
+    3.225730994152047,
+    4.141141141141141
+  ],
+  "label_names": [
+    "Explicit",
+    "Implicit",
+    "Dodging",
+    "General",
+    "Deflection",
+    "Partial/half-answer",
+    "Declining to answer",
+    "Claims ignorance",
+    "Clarification"
+  ]
+}

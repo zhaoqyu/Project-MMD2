@@ -1,0 +1,24 @@
+{
+  "labels": [
+    "Clear Reply",
+    "Ambivalent",
+    "Clear Non-Reply"
+  ],
+  "matrix": [
+    [
+      45,
+      32,
+      2
+    ],
+    [
+      36,
+      160,
+      10
+    ],
+    [
+      1,
+      12,
+      10
+    ]
+  ]
+}
