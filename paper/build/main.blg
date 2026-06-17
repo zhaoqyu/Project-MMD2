@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: plainnat.bst
+Database file #1: references.bib
+Warning--to sort, need author or key in clarity2026
+Warning--to sort, need author or key in qevasion_dataset
+Warning--to sort, need author or key in ineversaidthat
+You've used 8 entries,
+            2773 wiz_defined-function locations,
+            630 strings with 6950 characters,
+and the built_in function-call counts, 4680 in all, are:
+= -- 377
+> -- 402
+< -- 2
++ -- 138
+- -- 129
+* -- 411
+:= -- 692
+add.period$ -- 23
+call.type$ -- 8
+change.case$ -- 67
+chr.to.int$ -- 7
+cite$ -- 22
+duplicate$ -- 175
+empty$ -- 317
+format.name$ -- 134
+if$ -- 980
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 5
+newline$ -- 47
+num.names$ -- 20
+pop$ -- 166
+preamble$ -- 1
+purify$ -- 59
+quote$ -- 0
+skip$ -- 164
+stack$ -- 0
+substring$ -- 83
+swap$ -- 31
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 88
+warning$ -- 3
+while$ -- 21
+width$ -- 0
+write$ -- 103
+(There were 3 warnings)
