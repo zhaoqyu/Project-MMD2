@@ -6,7 +6,7 @@
 - Split: `dev`
 - Gold: **Dodging**
 - Prediction: **Dodging**
-- Confidence: `0.319`
+- Confidence: `0.450`
 - president: Joseph R. Biden
 - date: August 18, 2023
 - url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-yoon-suk-yeol-south-korea-and-prime-minister
@@ -21,12 +21,31 @@ What kind of shift would there be in President Biden's policy regarding human ri
 First of all, this trilateral cooperation amongst our three countries has opened a new chapter, and we made that announcement today to talk about the differences from the past cooperation.For instance, in the past, it was about individual issues that we sought cooperation among ourselves. But now, as we have opened a new chapter in our cooperation for security, economy, science and technology, and development cooperation for the Global South, health, and women—across all of these issues, our three countries decided to closely work together. So it's much more comprehensive in nature.Such comprehensive cooperation has been launched by us today because currently we face complicated crisis and the threat from the D.P.R.K. And across the world, we believe that we can together make a contribution to freedom and peace around the world.So that is our foundational understanding and our common ...
 
 ## Example 2
+- ID: `22`
+- Task: `task2`
+- Split: `dev`
+- Gold: **Dodging**
+- Prediction: **Dodging**
+- Confidence: `0.298`
+- president: Joseph R. Biden
+- date: July 13, 2023
+- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-sauli-niinisto-finland-helsinki-finland
+
+**Question**
+
+How does the NATOization of Finland change Finland's place in the world?
+
+**Answer**
+
+Well, first of all, the context in which I said that was: The gentleman who occupies a seat on the other side of the—your border, in Moscow, said he wanted—I said he wanted the Findalization [Finlandization; White House correction] of NATO. I said it was more likely he's going to get the NATOization of Finland. [] That's what—that's the context in which that was said.And what was the second part of your question?
+
+## Example 3
 - ID: `41`
 - Task: `task2`
 - Split: `dev`
 - Gold: **Dodging**
 - Prediction: **Dodging**
-- Confidence: `0.698`
+- Confidence: `0.480`
 - president: Joseph R. Biden
 - date: June 08, 2023
 - url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-rishi-sunak-the-united-kingdom
@@ -39,32 +58,32 @@ Bribery allegations against President Biden
 
 But wait, wait, wait, wait, wait.
 
-## Example 3
-- ID: `134`
+## Example 4
+- ID: `71`
 - Task: `task2`
 - Split: `dev`
 - Gold: **Explicit**
 - Prediction: **Explicit**
-- Confidence: `0.452`
+- Confidence: `0.980`
 - president: Joseph R. Biden
-- date: November 09, 2022
-- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1270
+- date: March 24, 2023
+- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-justin-pj-trudeau-canada-ottawa-canada
 
 **Question**
 
-What are you hoping to get out of this meeting that will make it a success?
+If it spreads, what measures are you willing or not willing to take?
 
 **Answer**
 
-Well, look, I'm not making—I'm not willing to make any fundamental concessions because what I—what I've told him in the beginning—and this is—we've—I've spent over 78, I think they told me, hours with him so far—67 in person, when I was Vice President. President Obama knew he couldn't spend time with the Vice President of another country, so I traveled 17,000 miles with them in China and around—and the United States. I've met with him many times.And I've told him: I'm looking for competition, not conflict. And so what I want to do with him when we talk is lay out what the—what kind of—what each of our red lines are, understand what he believes to be in the critical national interests of China, what I know to be the critical interests of the United States, and to determine whether or not they conflict with one another. And if they do, how to resolve it and how to work it out.And ...
+First of all, have you ever known Wall Street not in consternation? Number one.Look, I think we've done a pretty damn good job. People's savings are secure, and even those beyond the $250,000 the FDIC is guaranteeing them. And the American taxpayer is not going to have to pay a penny. The banks are in pretty good shape. What's going on in Europe isn't a direct consequence of what's happening in the United States.And I—what we would do is, if we find that there's more instability than appears, we'd be in a position to have the FDIC use the power it has to guarantee those loans above 250, like they did already.And so I think it's going to take a little while for things to just calm down. But I don't see anything that's on the horizon that's about to explode. But I do understand there's an unease about this. And these mid-sized banks have to be able to survive, and I think they'll be ...
 
-## Example 4
+## Example 5
 - ID: `139`
 - Task: `task2`
 - Split: `dev`
 - Gold: **Explicit**
 - Prediction: **Explicit**
-- Confidence: `0.975`
+- Confidence: `0.996`
 - president: Joseph R. Biden
 - date: November 09, 2022
 - url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1270
@@ -77,32 +96,32 @@ How does the sentiment of these Americans factor into the President's decision a
 
 It doesn't.
 
-## Example 5
-- ID: `158`
+## Example 6
+- ID: `153`
 - Task: `task2`
 - Split: `dev`
-- Gold: **Declining to answer**
-- Prediction: **Declining to answer**
-- Confidence: `0.355`
+- Gold: **Implicit**
+- Prediction: **Implicit**
+- Confidence: `0.514`
 - president: Joseph R. Biden
 - date: June 30, 2022
 - url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-madrid-spain
 
 **Question**
 
-What further specific executive actions are you considering in response to the Roe ruling?
+Assurance on F-16 jets for Turkey.
 
 **Answer**
 
-I'll be happy to go in detail with you on that, on the—I'm having a meeting with a group of Governors when I get home on Friday. And I'll have announcements to make then.But the first and foremost thing we should do is make it clear how outrageous this decision was and how much it impacts not just on a woman's right to choose—which is a critical, critical piece—but on privacy generally. On privacy generally.And so I'm going to be talking to the Governors as to what actions they think I should be taking as well. And—but the most important thing to be clear about is, we have to change—I believe we have to codify v. into law. And the way to do that is to make sure that Congress votes to do that. And if the filibuster gets in the way—it's like voting rights—it should be, we provide an exception for this—the—require an exception to the filibuster for this action to deal with the Supreme ...
+What I said was—I said back in December, as you'll recall, we should sell them the F-16 jets and modernize those jets as well. It's not in our interest not to do that. And I indicated to them that I've not changed my position at all since December.And there was no quid pro quo with that; it was just that we should sell. But I need congressional approval to be able to do that, and I think we can get that.
 
-## Example 6
+## Example 7
 - ID: `179`
 - Task: `task2`
 - Split: `dev`
 - Gold: **Explicit**
 - Prediction: **Explicit**
-- Confidence: `0.972`
+- Confidence: `0.997`
 - president: Joseph R. Biden
 - date: March 24, 2022
 - url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-brussels-belgium-1
@@ -115,43 +134,24 @@ Do you think that getting a firsthand look at the effects of this war on these m
 
 I don't think so, because I've been to many, many war zones. I've been in refugee camps. I've been in war zones for the last 15 years. And it's devastating. And what—the thing you look at the most is you see these young children, you see children without parents that are in those camps or in—or refugees. You see women and husbands—men and women who are completely lost and have no—you see the look—that blank look on their face, that absolute feeling of: My God, where am I? What's going to happen to me?And so it—what it will do, it will reinforce my commitment to have the United States make sure we are a major piece of dealing with the relocation of all those folks, as well as humanitarian assistance needed both inside and outside .For example, this is not something that Poland or Romania or Germany should carry on their own. This is an international responsibility. And the United ...
 
-## Example 7
-- ID: `187`
+## Example 8
+- ID: `189`
 - Task: `task2`
 - Split: `dev`
-- Gold: **Explicit**
-- Prediction: **Explicit**
-- Confidence: `0.189`
+- Gold: **Declining to answer**
+- Prediction: **Declining to answer**
+- Confidence: `0.366`
 - president: Joseph R. Biden
 - date: February 07, 2022
 - url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-chancellor-olaf-scholz-germany
 
 **Question**
 
-Is Germany a reliable partner to the United States?
+Should Germany rethink its position on Nord Stream 2 considering the threat posed by Russia?
 
 **Answer**
 
 There's no need to win back trust. He has the complete trust of the United States. Germany is our—one of our most important allies in the world. There is no doubt about Germany's partnership with the United States. None.With regard to helping Ukraine, one of the largest contributors financially to Ukraine has been Germany. Germany has been in the forefront of making sure—providing economic assistance.You also asked the question—you asked so many, I can't remember them all. But in terms of the U.S. media saying Germany is not reliable, Germany is completely reliable—completely, totally, thoroughly reliable. I have no doubt about Germany at all. We are united. And the transatlantic partnership between Germany and the U.S. is one of the permanent pillars of German policy, and it will be relevant in the future as well—just as relevant. And this will be one of our top priorities always.On ...
-
-## Example 8
-- ID: `198`
-- Task: `task2`
-- Split: `dev`
-- Gold: **Explicit**
-- Prediction: **Explicit**
-- Confidence: `0.853`
-- president: Joseph R. Biden
-- date: February 07, 2022
-- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-chancellor-olaf-scholz-germany
-
-**Question**
-
-Inquiring about the belief in an off-ramp for Vladimir Putin.
-
-**Answer**
-
-Yes.
 
 ## Example 9
 - ID: `200`
@@ -159,7 +159,7 @@ Yes.
 - Split: `dev`
 - Gold: **Explicit**
 - Prediction: **Explicit**
-- Confidence: `0.570`
+- Confidence: `0.986`
 - president: Joseph R. Biden
 - date: January 19, 2022
 - url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1269
@@ -179,7 +179,7 @@ Why are you such an optimist? []Look, I didn't overpromise, and—but I have pro
 - Split: `dev`
 - Gold: **Explicit**
 - Prediction: **Explicit**
-- Confidence: `0.977`
+- Confidence: `0.997`
 - president: Joseph R. Biden
 - date: January 19, 2022
 - url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1269
@@ -194,12 +194,32 @@ Do you need to be more realistic and scale down these priorities in order to get
 No, I don't think so. When you say more realistic, I think it's extremely realistic to say to people, because—let me back up. You all really know the politics in this country, and your networks and others. You've spent a lot of time, which I'm glad you do, polling this data, determining where the—what the American people's attitudes are, et cetera. The American people overwhelmingly agree with me on prescription drugs. They overwhelmingly agree with me on the cost of education. They overwhelmingly agree with me on early education. They overwhelmingly—and go on the list—on childcare.And so we just have to make the case what we're for and what the other team is not for. Look, we knew all along that a lot of this was going to be an uphill fight. And one of the ways to do this is to make sure we make the contrast as clear as we can.And one of the things that I think is—we're going to ...
 
 ## Example 11
+- ID: `211`
+- Task: `task2`
+- Split: `dev`
+- Gold: **Implicit**
+- Prediction: **Implicit**
+- Confidence: `0.651`
+- president: Joseph R. Biden
+- date: January 19, 2022
+- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1269
+- Notes: likely multi-part question, likely truncated
+
+**Question**
+
+Doubts about the effectiveness of sanctions in deterring Putin and why the threat of new sanctions would make him pause.
+
+**Answer**
+
+Well, because he's never seen sanctions like the ones I promised will be imposed if he moves, number one.Number two, we're in a situation where Vladimir Putin is about to—we've had very frank discussions, Vladimir Putin and I. And the idea that NATO is not going to be united, I don't buy. I've spoken to every major NATO leader. We've had the NATO-Russian summit. We've had other—the OSCE has met, et cetera.And so I think what you're going to see is that Russia will be held accountable if it invades. And it depends on what it does. It's one thing if it's a minor incursion and then we end up having a fight about what to do and not do, et cetera.But if they actually do what they're capable of doing with the forces amassed on the border, it is going to be a disaster for Russia if they further invade Ukraine, and that our allies and partners are ready to impose severe costs and significant ...
+
+## Example 12
 - ID: `217`
 - Task: `task2`
 - Split: `dev`
 - Gold: **Explicit**
 - Prediction: **Explicit**
-- Confidence: `0.973`
+- Confidence: `0.995`
 - president: Joseph R. Biden
 - date: January 19, 2022
 - url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1269
@@ -213,13 +233,13 @@ Off-ramp and assurance about NATO membership and nuclear weapons in Ukraine.
 
 No. No, there's not space for that. We won't permanently station. But the idea we're not going to—we're going to actually increase troop presence in Poland, in Romania, et cetera, if in fact he moves because we have a sacred obligation in article 5 to defend those countries. They are part of NATO. We don't have that obligation relative to Ukraine, although we have great concern about what happens in Ukraine.Thank you.Maureen [Maureen Groppe], USA Today.
 
-## Example 12
+## Example 13
 - ID: `233`
 - Task: `task2`
 - Split: `dev`
 - Gold: **Explicit**
 - Prediction: **Explicit**
-- Confidence: `0.981`
+- Confidence: `0.998`
 - president: Joseph R. Biden
 - date: January 19, 2022
 - url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1269
@@ -232,13 +252,13 @@ Can you guarantee that Vice President Harris will be your running mate in 2024, 
 
 Yes, and yes.
 
-## Example 13
+## Example 14
 - ID: `235`
 - Task: `task2`
 - Split: `dev`
 - Gold: **Explicit**
 - Prediction: **Explicit**
-- Confidence: `0.470`
+- Confidence: `0.981`
 - president: Joseph R. Biden
 - date: January 19, 2022
 - url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1269
@@ -251,13 +271,13 @@ What do you say to those who are offended by your speech?
 
 Number one: Anybody who listened to the speech—I did not say that they were going to be a George Wallace or a Bull Connor. I said we're going to have a decision in history that is going to be marked just like it was then. You either voted on the side—that didn't make you a George Wallace or didn't make you a Bull Connor.But if you did not vote for the Act back then, you were voting with those who agreed with Connor, those who agreed with—and so—and I think Mitch did a real good job of making it sound like I was attacking them. If you've noticed, I haven't attacked anybody publicly—any Senator, any—any Congressman publicly. And my disagreements with them have been made to them—communicated to them privately or in person with them.My desire still is—look, I underestimated one very important thing: I never thought that the Republicans—like, for example, I said—they got very upset—I said ...
 
-## Example 14
+## Example 15
 - ID: `240`
 - Task: `task2`
 - Split: `dev`
 - Gold: **Explicit**
 - Prediction: **Explicit**
-- Confidence: `0.982`
+- Confidence: `0.998`
 - president: Joseph R. Biden
 - date: January 19, 2022
 - url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1269
@@ -270,13 +290,13 @@ Number one: Anybody who listened to the speech—I did not say that they were go
 
 Oh, yes, I think it easily could be illegitimate.Imagine—imagine—if in fact Trump has succeeded in convincing Pence to not count the votes.
 
-## Example 15
+## Example 16
 - ID: `242`
 - Task: `task2`
 - Split: `dev`
 - Gold: **Dodging**
 - Prediction: **Dodging**
-- Confidence: `0.736`
+- Confidence: `0.911`
 - president: Joseph R. Biden
 - date: January 19, 2022
 - url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1269
@@ -289,13 +309,13 @@ What does the new normal look like?
 
 Okay. Whoa, whoa, whoa. Hang on, guys. We've only gone an hour and 20 minutes. I'll keep going.But I'm—but I'm going to go—let me get—let get something straight here: How long are you guys ready to go? You want to go for another hour or two?
 
-## Example 16
+## Example 17
 - ID: `265`
 - Task: `task2`
 - Split: `dev`
 - Gold: **Explicit**
 - Prediction: **Explicit**
-- Confidence: `0.652`
+- Confidence: `0.962`
 - president: Joseph R. Biden
 - date: November 02, 2021
 - url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-glasgow-united-kingdom
@@ -309,13 +329,13 @@ Assessing the current state of U.S.-China relationships after the President's fi
 
 Well, let me start off by addressing the first part of—if not the question, the statement. And that is that I indicated that China and Russia not showing up—and Saudi Arabia—was a problem. We showed up. We showed up. And by showing up, we've had a profound impact on the way I think the rest of the world is looking at the United States and its leadership role.I think it's been a big mistake, quite frankly, for China—with respect to China not showing up. The rest of the world is going to look to China and say, What value added are they providing? And they've lost an ability to influence people around the world and all the people here at COP—the same way, I would argue, with regard to Russia.With regard to the more profound question about do I—am I worried about an armed conflict or some—that accidentally occurring with China: No, I'm not. But I have had, as I've said before—and I think ...
 
-## Example 17
+## Example 18
 - ID: `268`
 - Task: `task2`
 - Split: `dev`
 - Gold: **Explicit**
 - Prediction: **Explicit**
-- Confidence: `0.673`
+- Confidence: `0.993`
 - president: Joseph R. Biden
 - date: November 02, 2021
 - url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-glasgow-united-kingdom
@@ -327,23 +347,3 @@ The impact of rising prices on everyday items.
 **Answer**
 
 Well, look, first of all, the significant reason why prices are up is because of COVID affecting the supply chain. I mean, I know you—I'm not trying to be instructive; I know you know this. Number one.Number two, if you take a look at, you know, gas prices and you take a look at oil prices, that is a consequence of, thus far, the refusal of Russia or the OPEC nations to pump more oil. And we'll see what happens on that score sooner than later.Number three, I think if you take a look at what we're talking about—you look to this coming Thanksgiving—you know, we're in a situation where we find that we are in a very different circumstance.Last Thanksgiving, you know, I—as I said, this year, we're working on the supply chain issue. But last Thanksgiving, I sat down with my wife, my daughter, and my son-in-law. This Thanksgiving, we're all in a very different circumstance. Things are a ...
-
-## Example 18
-- ID: `275`
-- Task: `task2`
-- Split: `dev`
-- Gold: **Explicit**
-- Prediction: **Explicit**
-- Confidence: `0.603`
-- president: Joseph R. Biden
-- date: November 02, 2021
-- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-glasgow-united-kingdom
-- Notes: likely multi-part question, likely truncated
-
-**Question**
-
-The concern that current efforts are not enough to address the climate crisis and the request for a message to those worried about the situation.
-
-**Answer**
-
-Well, first of all, I think anyone who is focused on the environment should be worried. We've got a lot more to do beyond what we've done. We've done more than we've ever done though; that's the point. And more has to be done.And I don't find—I didn't have a single member of the—this conference come up to me and say: Are you going to pass what you have? And what do you think is—how is that going to affect it? And what are you going to do? What they're looking at is what, in fact, has happened in terms of everything from dealing with deforestation to what we're going to do on Build Back Better and how we've been able to focus now.I mean, when is the last time you heard world leaders sit down together and agree that what they're going to do is, when they deal with the needs of the infrastructure of other countries, that they're going to focus, first and foremost, on whether or not what ...

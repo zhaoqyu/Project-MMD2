@@ -1,0 +1,33 @@
+{
+  "Clear Reply": {
+    "precision": 0.408,
+    "recall": 0.6455696202531646,
+    "f1-score": 0.5,
+    "support": 79.0
+  },
+  "Ambivalent": {
+    "precision": 0.7716049382716049,
+    "recall": 0.6067961165048543,
+    "f1-score": 0.6793478260869565,
+    "support": 206.0
+  },
+  "Clear Non-Reply": {
+    "precision": 0.5238095238095238,
+    "recall": 0.4782608695652174,
+    "f1-score": 0.5,
+    "support": 23.0
+  },
+  "accuracy": 0.6071428571428571,
+  "macro avg": {
+    "precision": 0.5678048206937096,
+    "recall": 0.5768755354410787,
+    "f1-score": 0.5597826086956522,
+    "support": 308.0
+  },
+  "weighted avg": {
+    "precision": 0.6598384296479534,
+    "recall": 0.6071428571428571,
+    "f1-score": 0.6199534161490684,
+    "support": 308.0
+  }
+}

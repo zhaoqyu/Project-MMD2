@@ -1,0 +1,82 @@
+{
+  "macro_f1": 0.689011700437559,
+  "weighted_f1": 0.7114861685694991,
+  "accuracy": 0.7086956521739131,
+  "clear_reply_precision": 0.6025641025641025,
+  "clear_reply_recall": 0.6682464454976303,
+  "clear_reply_f1": 0.6337078651685393,
+  "clear_reply_support": 211.0,
+  "ambivalent_precision": 0.7935656836461126,
+  "ambivalent_recall": 0.7254901960784313,
+  "ambivalent_f1": 0.7580025608194623,
+  "ambivalent_support": 408.0,
+  "clear_non_reply_precision": 0.6265060240963856,
+  "clear_non_reply_recall": 0.7323943661971831,
+  "clear_non_reply_f1": 0.6753246753246753,
+  "clear_non_reply_support": 71.0,
+  "classification_report": {
+    "Clear Reply": {
+      "precision": 0.6025641025641025,
+      "recall": 0.6682464454976303,
+      "f1-score": 0.6337078651685393,
+      "support": 211.0
+    },
+    "Ambivalent": {
+      "precision": 0.7935656836461126,
+      "recall": 0.7254901960784313,
+      "f1-score": 0.7580025608194623,
+      "support": 408.0
+    },
+    "Clear Non-Reply": {
+      "precision": 0.6265060240963856,
+      "recall": 0.7323943661971831,
+      "f1-score": 0.6753246753246753,
+      "support": 71.0
+    },
+    "accuracy": 0.7086956521739131,
+    "macro avg": {
+      "precision": 0.6742119367688669,
+      "recall": 0.7087103359244149,
+      "f1-score": 0.689011700437559,
+      "support": 690.0
+    },
+    "weighted avg": {
+      "precision": 0.7179677569267868,
+      "recall": 0.7086956521739131,
+      "f1-score": 0.7114861685694991,
+      "support": 690.0
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "matrix": [
+      [
+        141,
+        65,
+        5
+      ],
+      [
+        86,
+        296,
+        26
+      ],
+      [
+        7,
+        12,
+        52
+      ]
+    ]
+  },
+  "ambivalent_vs_clear_non_reply": {
+    "ambivalent_gold_count": 408,
+    "clear_non_reply_gold_count": 71,
+    "ambivalent_predicted_clear_non_reply": 26,
+    "clear_non_reply_predicted_ambivalent": 12,
+    "ambivalent_to_clear_non_reply_rate": 0.06372549019607843,
+    "clear_non_reply_to_ambivalent_rate": 0.16901408450704225
+  }
+}

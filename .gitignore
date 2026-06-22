@@ -2,8 +2,22 @@ __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 .venv/
-outputs/runs/
+# outputs/runs/
 outputs/splits/
 outputs/slurm_logs/
 *.log
 
+# Keep readable experiment outputs, ignore heavy binaries/model artifacts
+!outputs/
+!outputs/runs/
+!outputs/runs/**/
+
+outputs/runs/**/checkpoints/
+outputs/runs/**/best_model/
+
+outputs/runs/**/*.npy
+outputs/runs/**/*.bin
+outputs/runs/**/*.safetensors
+outputs/runs/**/*.pt
+outputs/runs/**/*.pth
+outputs/runs/**/*.ckpt

@@ -32,8 +32,7 @@ The dataset currently uses `Ambivalent` for the middle Task 1 class. Some task d
 ## Setup
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
+python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
 

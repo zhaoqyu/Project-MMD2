@@ -1,0 +1,69 @@
+{
+  "Explicit": {
+    "precision": 0.6585365853658537,
+    "recall": 0.5118483412322274,
+    "f1-score": 0.576,
+    "support": 211.0
+  },
+  "Implicit": {
+    "precision": 0.216,
+    "recall": 0.2755102040816326,
+    "f1-score": 0.242152466367713,
+    "support": 98.0
+  },
+  "Dodging": {
+    "precision": 0.4700854700854701,
+    "recall": 0.3900709219858156,
+    "f1-score": 0.4263565891472868,
+    "support": 141.0
+  },
+  "General": {
+    "precision": 0.1981981981981982,
+    "recall": 0.2857142857142857,
+    "f1-score": 0.23404255319148937,
+    "support": 77.0
+  },
+  "Deflection": {
+    "precision": 0.21568627450980393,
+    "recall": 0.2894736842105263,
+    "f1-score": 0.24719101123595505,
+    "support": 76.0
+  },
+  "Partial/half-answer": {
+    "precision": 0.5,
+    "recall": 0.0625,
+    "f1-score": 0.1111111111111111,
+    "support": 16.0
+  },
+  "Declining to answer": {
+    "precision": 0.5,
+    "recall": 0.4827586206896552,
+    "f1-score": 0.49122807017543857,
+    "support": 29.0
+  },
+  "Claims ignorance": {
+    "precision": 0.5416666666666666,
+    "recall": 0.5416666666666666,
+    "f1-score": 0.5416666666666666,
+    "support": 24.0
+  },
+  "Clarification": {
+    "precision": 0.7647058823529411,
+    "recall": 0.7222222222222222,
+    "f1-score": 0.7428571428571429,
+    "support": 18.0
+  },
+  "accuracy": 0.39855072463768115,
+  "macro avg": {
+    "precision": 0.4516532307976593,
+    "recall": 0.3957516607558924,
+    "f1-score": 0.40140062341697813,
+    "support": 690.0
+  },
+  "weighted avg": {
+    "precision": 0.4453904272472547,
+    "recall": 0.39855072463768115,
+    "f1-score": 0.4124432385619922,
+    "support": 690.0
+  }
+}

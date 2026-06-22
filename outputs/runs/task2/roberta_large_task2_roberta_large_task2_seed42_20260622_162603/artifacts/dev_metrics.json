@@ -1,0 +1,224 @@
+{
+  "macro_f1": 0.43950400057979183,
+  "weighted_f1": 0.4644190702537424,
+  "accuracy": 0.47101449275362317,
+  "explicit_precision": 0.5862068965517241,
+  "explicit_recall": 0.6445497630331753,
+  "explicit_f1": 0.6139954853273137,
+  "explicit_support": 211.0,
+  "implicit_precision": 0.25892857142857145,
+  "implicit_recall": 0.29591836734693877,
+  "implicit_f1": 0.2761904761904762,
+  "implicit_support": 98.0,
+  "dodging_precision": 0.5434782608695652,
+  "dodging_recall": 0.5319148936170213,
+  "dodging_f1": 0.5376344086021505,
+  "dodging_support": 141.0,
+  "general_precision": 0.2777777777777778,
+  "general_recall": 0.2597402597402597,
+  "general_f1": 0.2684563758389262,
+  "general_support": 77.0,
+  "deflection_precision": 0.3088235294117647,
+  "deflection_recall": 0.27631578947368424,
+  "deflection_f1": 0.2916666666666667,
+  "deflection_support": 76.0,
+  "partial_half_answer_precision": 0.0,
+  "partial_half_answer_recall": 0.0,
+  "partial_half_answer_f1": 0.0,
+  "partial_half_answer_support": 16.0,
+  "declining_to_answer_precision": 0.64,
+  "declining_to_answer_recall": 0.5517241379310345,
+  "declining_to_answer_f1": 0.5925925925925926,
+  "declining_to_answer_support": 29.0,
+  "claims_ignorance_precision": 0.5416666666666666,
+  "claims_ignorance_recall": 0.5416666666666666,
+  "claims_ignorance_f1": 0.5416666666666666,
+  "claims_ignorance_support": 24.0,
+  "clarification_precision": 0.8333333333333334,
+  "clarification_recall": 0.8333333333333334,
+  "clarification_f1": 0.8333333333333334,
+  "clarification_support": 18.0,
+  "classification_report": {
+    "Explicit": {
+      "precision": 0.5862068965517241,
+      "recall": 0.6445497630331753,
+      "f1-score": 0.6139954853273137,
+      "support": 211.0
+    },
+    "Implicit": {
+      "precision": 0.25892857142857145,
+      "recall": 0.29591836734693877,
+      "f1-score": 0.2761904761904762,
+      "support": 98.0
+    },
+    "Dodging": {
+      "precision": 0.5434782608695652,
+      "recall": 0.5319148936170213,
+      "f1-score": 0.5376344086021505,
+      "support": 141.0
+    },
+    "General": {
+      "precision": 0.2777777777777778,
+      "recall": 0.2597402597402597,
+      "f1-score": 0.2684563758389262,
+      "support": 77.0
+    },
+    "Deflection": {
+      "precision": 0.3088235294117647,
+      "recall": 0.27631578947368424,
+      "f1-score": 0.2916666666666667,
+      "support": 76.0
+    },
+    "Partial/half-answer": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 16.0
+    },
+    "Declining to answer": {
+      "precision": 0.64,
+      "recall": 0.5517241379310345,
+      "f1-score": 0.5925925925925926,
+      "support": 29.0
+    },
+    "Claims ignorance": {
+      "precision": 0.5416666666666666,
+      "recall": 0.5416666666666666,
+      "f1-score": 0.5416666666666666,
+      "support": 24.0
+    },
+    "Clarification": {
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.8333333333333334,
+      "support": 18.0
+    },
+    "accuracy": 0.47101449275362317,
+    "macro avg": {
+      "precision": 0.44335722622660034,
+      "recall": 0.43724035679356826,
+      "f1-score": 0.43950400057979183,
+      "support": 690.0
+    },
+    "weighted avg": {
+      "precision": 0.4595863291002978,
+      "recall": 0.47101449275362317,
+      "f1-score": 0.4644190702537424,
+      "support": 690.0
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "Explicit",
+      "Implicit",
+      "Dodging",
+      "General",
+      "Deflection",
+      "Partial/half-answer",
+      "Declining to answer",
+      "Claims ignorance",
+      "Clarification"
+    ],
+    "matrix": [
+      [
+        136,
+        27,
+        22,
+        15,
+        6,
+        0,
+        0,
+        4,
+        1
+      ],
+      [
+        34,
+        29,
+        16,
+        5,
+        11,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        19,
+        10,
+        75,
+        17,
+        15,
+        0,
+        2,
+        3,
+        0
+      ],
+      [
+        23,
+        14,
+        10,
+        20,
+        7,
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        10,
+        24,
+        8,
+        10,
+        21,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        2,
+        4,
+        1,
+        4,
+        4,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        4,
+        1,
+        1,
+        3,
+        0,
+        16,
+        1,
+        1
+      ],
+      [
+        4,
+        0,
+        4,
+        0,
+        1,
+        0,
+        1,
+        13,
+        1
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        15
+      ]
+    ]
+  }
+}

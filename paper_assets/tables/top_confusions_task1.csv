@@ -1,6 +1,5 @@
 gold_label,predicted_label,count,percent_of_gold_class
-Ambivalent,Clear Reply,47,0.22815533980582525
-Clear Reply,Ambivalent,26,0.3291139240506329
-Clear Non-Reply,Ambivalent,10,0.43478260869565216
+Clear Reply,Ambivalent,40,0.5063291139240507
+Ambivalent,Clear Reply,25,0.12135922330097088
+Clear Non-Reply,Ambivalent,11,0.4782608695652174
 Ambivalent,Clear Non-Reply,9,0.043689320388349516
-Clear Reply,Clear Non-Reply,2,0.02531645569620253

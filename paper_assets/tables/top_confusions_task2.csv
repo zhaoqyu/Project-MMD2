@@ -1,36 +1,38 @@
 gold_label,predicted_label,count,percent_of_gold_class
-Implicit,Explicit,26,0.45614035087719296
-Implicit,Dodging,22,0.38596491228070173
-General,Dodging,20,0.4166666666666667
-General,Explicit,17,0.3541666666666667
-Explicit,Dodging,11,0.14285714285714285
-Dodging,Claims ignorance,6,0.12
-Explicit,Implicit,6,0.07792207792207792
-Deflection,Dodging,6,0.35294117647058826
-Dodging,Implicit,5,0.1
-Dodging,Declining to answer,5,0.1
-Deflection,Explicit,4,0.23529411764705882
-Dodging,Explicit,4,0.08
-General,Implicit,3,0.0625
+Explicit,Implicit,16,0.2077922077922078
+General,Implicit,13,0.2708333333333333
+Implicit,General,13,0.22807017543859648
+Implicit,Explicit,12,0.21052631578947367
+Dodging,Deflection,10,0.2
+General,Explicit,10,0.20833333333333334
+Implicit,Deflection,9,0.15789473684210525
+Dodging,Implicit,9,0.18
+Explicit,General,8,0.1038961038961039
+Dodging,General,8,0.16
+General,Deflection,6,0.125
+Implicit,Dodging,5,0.08771929824561403
+General,Dodging,5,0.10416666666666667
+Deflection,General,5,0.29411764705882354
+Deflection,Dodging,4,0.23529411764705882
+Explicit,Dodging,3,0.03896103896103896
 Declining to answer,Deflection,3,0.2727272727272727
-Explicit,General,2,0.025974025974025976
-Dodging,General,2,0.04
-Dodging,Deflection,2,0.04
-Implicit,General,2,0.03508771929824561
-Implicit,Deflection,2,0.03508771929824561
-Declining to answer,Dodging,2,0.18181818181818182
-Claims ignorance,Dodging,2,0.25
+Dodging,Explicit,3,0.06
+Explicit,Deflection,2,0.025974025974025976
+Declining to answer,General,2,0.18181818181818182
 General,Declining to answer,2,0.041666666666666664
-General,Claims ignorance,2,0.041666666666666664
-Deflection,Implicit,2,0.11764705882352941
-Explicit,Claims ignorance,1,0.012987012987012988
-Explicit,Deflection,1,0.012987012987012988
-Deflection,General,1,0.058823529411764705
-Partial/half-answer,Dodging,1,0.3333333333333333
+Deflection,Explicit,2,0.11764705882352941
+Explicit,Declining to answer,1,0.012987012987012988
+Implicit,Declining to answer,1,0.017543859649122806
+Dodging,Clarification,1,0.02
+Dodging,Declining to answer,1,0.02
+Partial/half-answer,General,1,0.3333333333333333
 Partial/half-answer,Explicit,1,0.3333333333333333
-Deflection,Claims ignorance,1,0.058823529411764705
-Declining to answer,Implicit,1,0.09090909090909091
+Deflection,Implicit,1,0.058823529411764705
+Declining to answer,Explicit,1,0.09090909090909091
 Partial/half-answer,Deflection,1,0.3333333333333333
-Declining to answer,Claims ignorance,1,0.09090909090909091
+Declining to answer,Dodging,1,0.09090909090909091
+Claims ignorance,Implicit,1,0.125
+Claims ignorance,Dodging,1,0.125
 Claims ignorance,General,1,0.125
+Claims ignorance,Declining to answer,1,0.125
 Clarification,Dodging,1,0.25
